@@ -15,7 +15,7 @@ function App() {
     <div>
       <BtnDL
       />
-      <h1 className="font-black text-5xl text-center text-black mx-auto mt-10 dark:text-slate-300">
+      <h1 className="font-black text-5xl text-center text-black mx-auto mt-10 dark:text-white">
         To Do App
       </h1>
       
