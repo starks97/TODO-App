@@ -7,11 +7,13 @@ const DeleteAll = ({children}) => {
 
     const removeAllCompleted = useStore(state => state.removeAllCompleted);
     return (
-        <div  className="flex justify-center bg-red-700 rounded-lg w-80 max-w-sm mt-10 hover:bg-red-900 ">
+        <div  className="flex justify-center bg-red-700 rounded-lg w-80 max-w-sm mt-10 hover:bg-red-900 "
+                onClick={() => removeAllCompleted()}
+        >
             <img
                 className="w-10 "
                 src={deleteAllIcon}
-                onClick={() => removeAllCompleted()}
+                
             />
         </div>
     )
